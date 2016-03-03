@@ -1,13 +1,12 @@
 .container {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
+
 }
 
 
 .box {
   height: 200px;
-  width: 200px;
+  flex-grow: 1;
 }
 .box1 {
   background-color: burlywood;
